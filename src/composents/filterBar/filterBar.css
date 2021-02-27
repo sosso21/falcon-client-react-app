@@ -1,0 +1,9 @@
+.form-horizontal {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.form-horizontal * {
+    margin: 1rem 0 1rem 0;
+}

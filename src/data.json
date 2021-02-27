@@ -1,0 +1,32 @@
+{
+    "name" : "Falcon",
+    "urlClient" : "https://falcon-com.web.app",
+    "urlServer":"https://falcon-admin.herokuapp.com",
+    "currency":"€",
+    "social":[
+        {
+            "name" : "facebook",
+            "svg":" bi-instagram",
+            "url": "https://www.instagram.com/falcon_srv/"
+        },
+        {
+            "name" : "instagram",
+            "svg":"bi-facebook",
+            "url": "https://www.facebook.com/Falconcom-189650932635666"
+        },
+        {
+            "name" : "email",
+            "svg":"bi-envelope-fill",
+            "url": "falconshoppingsav@gmail.com"
+        }
+
+    ],
+
+    "email":"falcon@gmail.com",
+    "Deliveries_price":{
+        "normal":0,
+        "normalDelay" :"entre 2 à 3 semaines",
+        "prenieum": 20,
+        "preniemDelay":"entre 2 à 7 jours"
+    }
+}

@@ -1,0 +1,73 @@
+.modal-large .modal-content {
+    position: fixed;
+    left: 0;
+    width: 90%;
+    height: 90%;
+    margin: 0 5% 0 5%;
+    overflow: scroll;
+}
+
+.big-img {
+    width: 40%;
+    height: 100%;
+}
+
+.imgSpan {
+    background-color: gainsboro;
+    height: 65vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.modal-body-flex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.small-img {
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    overflow: scroll;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.small-img img {
+    max-width: 5rem;
+    height: auto;
+    border: black 1px solid;
+}
+
+.big-box-description {
+    height: 100%;
+    width: 40%;
+    word-wrap: break-word;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.big-box-description * {
+    margin: 1rem 0 1rem 0;
+}
+
+@media (max-width: 900px) {
+    .modal-body-flex div {
+        width: 100%;
+    }
+    .small-img {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        flex-direction: row;
+        height: max-content;
+        margin: 1rem 0 1rem 0;
+    }
+    .big-box-description {
+        width: unset;
+    }
+}

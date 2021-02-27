@@ -1,0 +1,27 @@
+.list-cart li {
+    list-style: none;
+    word-wrap: break-word;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+@media (min-width: 768px) {
+    .list-cart {
+        position: sticky;
+        top: 4.5rem;
+        
+    }
+}
+.icon-basket{
+    font-size: 2rem;
+}
+.red-notif{
+    background-color: red;
+    color: white;
+    padding: 0 0.5rem;
+    border-radius: 50%;
+    position: relative;
+    right:1rem;
+    bottom: 0.5rem;
+}

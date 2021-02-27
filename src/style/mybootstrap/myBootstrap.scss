@@ -1,0 +1,203 @@
+$theme-colors: (
+    "primary": #6f42c1,
+    "blue": #6f42c1,
+
+  "secondary":#6c757d,
+  "success":#198754,
+  "info":#0dcaf0,
+  "warning":#ffc107,
+  "danger":#dc3545,
+  "light":#f8f9fa,
+  "dark":#212529,
+
+
+) !default;
+
+@import "../../../node_modules/bootstrap/scss/bootstrap";
+
+/*  ------ our style + custom bootstrap----*/ 
+
+
+/*  --//- custpm bootstrap  ---*/ 
+.min-w-50{
+  min-width: 50%;
+}
+.min-w-75{
+  min-width: 75%;
+}
+.max-w-100 {
+  max-width: 100% !important;
+}
+
+.max-h-100 {
+  max-height: 100% !important;
+}
+.min-h-100 {
+ min-height: 100% !important;
+}
+
+.min-vw-100 {
+  min-width: 100vw !important;
+}
+
+.min-vh-100 {
+  min-height: 100vh !important;
+}
+
+.vw-90 {
+  width: 90vw !important;
+}
+
+.vh-90 {
+  height: 90vh !important;
+}
+.min-vh-50{
+  min-height: 50vh;
+}
+.min-vh-75{
+  min-height: 75vh;
+}
+.flex-between{
+  display: flex;
+  justify-content: space-between;
+}
+.font-big{
+  font-size: large;
+}
+.font-weight-light{
+  font-weight: lighter;
+}
+.font-weight-bold{
+  font-weight: bolder;
+}
+.text-right{
+  text-align: right!important;
+}
+.text-center{
+  text-align: center!important;
+}
+.text-left{
+  text-align: left!important;
+}
+
+.text-justify{
+  text-align: justify!important;
+}
+.btn-block{
+  display: block;
+  width: 100%;
+}
+.pointer{
+cursor: pointer;
+}
+
+.posion-r-top-05{
+  position: relative;
+  top: 0.5rem;
+  
+}
+
+
+/*   ---- style ----- */ 
+.flex-verticaly {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 100%;
+  min-height: 100vh;
+  height: max-content;
+}
+
+.main-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.main-flex main {
+  flex: 3 70%;
+  min-height: 50vh;
+}
+
+.main-flex aside {
+  flex: 1 20%;
+  min-height: 50vh;
+}
+
+.sign-flex {
+  max-width: 500px;
+  height: max-content;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.eyes-item {
+  text-decoration: none;
+  cursor: pointer;
+  position: absolute;
+  bottom: 0.75rem;
+  right: 0.5rem;
+  z-index: 3;
+}
+
+.parentSolde {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.solde-content {
+  border-radius: 50% 0 0 0;
+  background-color: $danger;
+  color: white;
+  
+  text-align: center;
+}
+
+.overflow-scroll {
+  overflow-y: scroll;
+}
+
+@media (max-width: 768px) {
+  .main-flex {
+      flex-direction: column;
+  }
+
+  .main-flex aside {
+      order: 1;
+      box-shadow: gray 1px 1px 0.5rem;
+      margin-bottom: 1rem;
+      border-radius: 0.25rem;
+
+  }
+
+  .main-flex main {
+      order: 2;
+  }
+}
+
+.bg-signup {
+  background-image: url("/img/touka.png");
+
+}
+
+.bg-signin {
+  background-image: url("/img/pc.jpg");
+
+}
+
+
+.bg-signup,
+.bg-signin,
+.head-section {
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+

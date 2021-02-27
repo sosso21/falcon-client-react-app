@@ -1,0 +1,6 @@
+.list-noStyle li i {
+  cursor: pointer;
+} 
+.list-noStyle li   {
+  list-style: none;  
+} 

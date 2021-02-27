@@ -1,0 +1,77 @@
+.min-w-50{
+    min-width: 50%;
+}
+.min-w-75{
+    min-width: 75%;
+}
+.max-w-100 {
+    max-width: 100% !important;
+}
+
+ .max-h-100 {
+    max-height: 100% !important;
+}
+.min-h-100 {
+   min-height: 100% !important;
+}
+
+.min-vw-100 {
+    min-width: 100vw !important;
+}
+
+.min-vh-100 {
+    min-height: 100vh !important;
+}
+
+.vw-90 {
+    width: 90vw !important;
+}
+
+.vh-90 {
+    height: 90vh !important;
+}
+.min-vh-50{
+    min-height: 50vh;
+}
+.min-vh-75{
+    min-height: 75vh;
+}
+.flex-between{
+    display: flex;
+    justify-content: space-between;
+}
+.font-big{
+    font-size: large;
+}
+.font-weight-light{
+    font-weight: lighter;
+}
+.font-weight-bold{
+    font-weight: bolder;
+}
+.text-right{
+    text-align: right!important;
+}
+.text-center{
+    text-align: center!important;
+}
+.text-left{
+    text-align: left!important;
+}
+
+.text-justify{
+    text-align: justify!important;
+}
+.btn-block{
+    display: block;
+    width: 100%;
+}
+.pointer{
+  cursor: pointer;
+}
+
+.posion-r-top-05{
+    position: relative;
+    top: 0.5rem;
+    
+}

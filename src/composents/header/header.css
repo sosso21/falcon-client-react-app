@@ -1,0 +1,22 @@
+.header-bg {
+  
+ background-image: url("/img/bg-header.jpg");
+ 
+}
+
+.font-familly-serif-kiki {
+  font-family: "Courier New", Courier, monospace;
+   
+}
+.iumg-logo{
+  height: 2rem;
+  
+}
+
+@media (min-width: 768px) {
+  .sticky {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
+}

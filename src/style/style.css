@@ -1,0 +1,99 @@
+.flex-verticaly {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+    height: max-content;
+}
+
+.main-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.main-flex main {
+    flex: 3 70%;
+    min-height: 50vh;
+}
+
+.main-flex aside {
+    flex: 1 20%;
+    min-height: 50vh;
+}
+
+.sign-flex {
+    max-width: 500px;
+    height: max-content;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.eyes-item {
+    text-decoration: none;
+    cursor: pointer;
+    position: absolute;
+    bottom: 0.75rem;
+    right: 0.5rem;
+    z-index: 3;
+}
+
+.parentSolde {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.solde-content {
+    border-radius: 50% 0 0 0;
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+
+.overflow-scroll {
+    overflow-y: scroll;
+}
+
+@media (max-width: 768px) {
+    .main-flex {
+        flex-direction: column;
+    }
+
+    .main-flex aside {
+        order: 1;
+        box-shadow: gray 1px 1px 0.5rem;
+        margin-bottom: 1rem;
+        border-radius: 0.25rem;
+
+    }
+
+    .main-flex main {
+        order: 2;
+    }
+}
+
+.bg-signup {
+    background-image: url("/img/touka.png");
+
+}
+
+.bg-signin {
+    background-image: url("/img/pc.jpg");
+
+}
+
+
+.bg-signup,
+.bg-signin,
+.head-section {
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
